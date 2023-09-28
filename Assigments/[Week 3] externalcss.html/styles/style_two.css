@@ -1,0 +1,20 @@
+h1 {
+    font-size: 30px;
+    background-color: brown;
+}
+
+h2 {
+    background-color: indigo;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    background-color: darkblue;
+    color: azure;
+}
+
+p {
+    border: 2px;
+    margin: 10px;
+}
