@@ -1,0 +1,11 @@
+.epikteti{
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.epikteti:hover{
+    background-color: violet;
+}
+.epikteti:hover::first-letter{
+    font-size: 30px;
+}
