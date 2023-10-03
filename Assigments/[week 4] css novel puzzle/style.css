@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+}
+
+.first-case {
+    font-size: larger;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: red underline;
+
+}
+
+.second-case {
+    font-size: larger;
+    font-weight: bold;
+}
+
+p{
+    width: 500px;
+}
+.third-case{
+    font-size: 4em;
+    font-weight: bolder;
+    text-decoration: red dotted underline;
+    float: left;
+}
+.forth-case{
+    font-size: larger;
+    font-weight: bold;
+}
