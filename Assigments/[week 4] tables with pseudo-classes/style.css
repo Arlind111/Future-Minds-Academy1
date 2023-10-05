@@ -1,3 +1,7 @@
+table{
+    width: 50% ;
+    border-collapse: collapse;
+}
 table tr:nth-child(odd) {
     background-color: green;
     color: black;
@@ -6,4 +10,8 @@ table tr:nth-child(odd) {
 table tr:nth-child(even) {
     background-color: yellowgreen;
     color: white;
+}
+th,td{
+    border-bottom: 1px solid white;
+    padding: 15px;
 }
