@@ -10,14 +10,12 @@ h1 {
 section {
     background-color: #7F557D;
     height: 25vh;
-    width: 100vw;
     padding: 1px;
 }
 
 section:nth-child(odd) {
     background-color: #726E97;
     height: 25vh;
-    width: 100vw;
     padding: 1px;
 }
 
