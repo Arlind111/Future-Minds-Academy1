@@ -7,7 +7,7 @@ h1 {
     color: white;
 }
 
-section {
+section:nth-child(even){
     background-color: #7F557D;
     height: 25vh;
     padding: 1px;
