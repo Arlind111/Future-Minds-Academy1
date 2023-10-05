@@ -5,8 +5,9 @@ img{
     float: left;
     width: 300px;
     cursor: pointer;
-    padding: 5px;
+    padding: 0px;
     opacity: 0.8;
+    border: solid transparent;
 }
 p{
     float: left;
