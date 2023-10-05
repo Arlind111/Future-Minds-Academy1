@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 1px;
+    padding: 1px;
+    display: inline;
+    text-decoration: underline red;
+}
+p{
+    margin: 1px;
+    padding: 1px;
+}
