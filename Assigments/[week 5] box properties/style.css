@@ -5,7 +5,7 @@ img{
     float: left;
     width: 300px;
     cursor: pointer;
-    padding: 0px;
+    padding: 1px;
     opacity: 0.8;
     border: solid transparent;
 }
