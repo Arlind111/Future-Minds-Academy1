@@ -6,15 +6,15 @@ img{
     width: 300px;
     cursor: pointer;
     opacity: 0.8;
-    border: solid transparent;
+    border: solid black;
 }
 p{
     float: left;
-    padding: 10px;
+    padding: 15px;
     border: 5px solid white;
-    margin: 15px;
+    margin: 20px;
 }
 img:hover{
-    border: double red;
+    border: dotted red;
     opacity: 1;
 }
