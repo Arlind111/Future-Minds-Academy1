@@ -17,4 +17,5 @@ p{
 img:hover{
     border: dotted red;
     opacity: 1;
+    padding: 3px;
 }
