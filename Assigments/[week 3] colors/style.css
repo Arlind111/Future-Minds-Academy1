@@ -17,12 +17,7 @@ ul{
     opacity: 0.5;
 }
 
-.colorful-1{
-    color: red;
-    background: rgb(121,230,230);
-background: linear-gradient(90deg, rgba(121,230,230,1) 33%, rgba(30,166,14,1) 50%, rgba(0,212,255,1) 67%);
-}
-.colorful-2{
+section{
     color: red;
     background: rgb(121,230,230);
 background: linear-gradient(90deg, rgba(121,230,230,1) 33%, rgba(30,166,14,1) 50%, rgba(0,212,255,1) 67%);
