@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    padding: 15px;
+}
+
+.border {
+    background-color: white;
+    border: 1px transparent black;
+    padding: 10px;
+    box-shadow: -1px 15px 5px 5px grey;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 50%;
+    top: 10px;
+}
+
+.name {
+    margin: -10px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    font-size: 2rem;
+}
+
+.close-button {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.earth {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+video{
+    width: 100%;
+}
+.text{
+    font-size: 18px;
+    margin-top: 10px;
+}
