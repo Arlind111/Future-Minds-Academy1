@@ -240,3 +240,24 @@ form:hover{
     border: 5px solid black;
     opacity: 0.8;
 }
+.email{
+    width: 40%;
+    padding: 20px 10px;
+}
+.textarea{
+    width: 40%;
+    padding: 20px 10px;
+}
+.submit{
+    width: 10%;
+    padding: 10px 5px;
+}
+.email:hover{
+    background-color: bisque;
+}
+.textarea:hover{
+    background-color: bisque;
+}
+.submit:hover{
+    background-color: bisque;
+}
