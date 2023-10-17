@@ -1,0 +1,25 @@
+Flexbox Froggy
+lv1-justify-content: end;
+lv2-justify-content: center;
+lv3-justify-content: space-around;
+lv4-justify-content: space-between;
+lv5-align-items: end;
+lv6-justify-content: center;align-items: center;
+lv7-justify-content: space-around;align-items: end
+lv8-flex-direction: row-reverse;
+lv9-flex-direction: column;
+lv10-flex-direction: row-reverse;justify-content: start;
+lv11-flex-direction: column;justify-content: end;
+lv12-flex-direction: column-reverse;justify-content: space-between;
+lv13-flex-direction: row-reverse;justify-content: center;align-items: end;
+lv14-order: 1;
+lv15-order: -1;
+lv16-align-self: end;
+lv17-align-self: end;order: 1
+lv18-flex-wrap: wrap;
+lv19-flex-direction: column;flex-wrap: wrap;
+lv20-flex-flow: column wrap;
+lv21-align-content: start;
+lv22-align-content: end;
+lv23-flex-direction: column-reverse;align-content: center;
+lv24-flex-direction: column-reverse;justify-content: center;align-content: space-between;flex-wrap: wrap-reverse;
