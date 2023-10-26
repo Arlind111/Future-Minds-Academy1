@@ -19,6 +19,7 @@ body {
 
 .dune {
   width: 100%;
+  display: block;
 }
 
 .info {
