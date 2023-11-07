@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid prac</title>
+    <style>
+        div{
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            height: 300px;
+            column-gap: 5em;
+        }
+        .top{
+            background-color: hotpink;
+            grid-column: 1/5;
+        }
+        .mid{
+            background-color: lightgreen;
+            grid-row: 2 / span 1;
+        }
+        .bott{
+            background-color: hotpink;
+            grid-column: 1/5;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="top"></div>
+        <div class="mid"></div>
+        <div class="mid"></div>
+        <div class="mid"></div>
+        <div class="mid"></div>
+        <div class="bott"></div>
+    </div>
+</body>
+</html>
