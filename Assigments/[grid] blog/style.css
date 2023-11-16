@@ -4,7 +4,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     display: grid;
-	grid-template-columns: 50px 1fr;
+	grid-template-columns: 100px 1fr;
 }
 
 .aside {
