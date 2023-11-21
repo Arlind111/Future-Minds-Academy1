@@ -229,11 +229,37 @@ iframe{
     margin: 1rem;
     gap: 1rem;
 }
-.status{
+.status1{
     position: relative;
     background-color: white;
     border-radius: 0.5rem;
     padding: 1rem;
+    grid: 1 / 2;
+    margin-top: 0.5rem;
+}
+.status2{
+    position: relative;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    grid: 2 / 3;
+    margin-top: 0.5rem;
+}
+.status3{
+    position: relative;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    grid: 2 / 2;
+    margin-top: 0.5rem;
+}
+.status4{
+    position: relative;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    grid: 2 / 3;
+    margin-top: 0.5rem;
 }
 .chair{
     background-color: orange;
@@ -282,4 +308,33 @@ iframe{
     position: absolute;
     top: -1rem;
     left: 1rem;
+}
+.store{
+    background-color: green;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+}
+.globe{
+    background-color: blue;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+}
+h1{
+    font-weight: 100;
 }
