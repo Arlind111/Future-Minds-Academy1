@@ -1,27 +1,34 @@
-*{
+* {
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 body {
-	margin: 0;
-	padding: 0;
-	display: grid;
-	grid-template-columns: minmax(250px, auto)1fr;
-	grid-template-rows: 1fr;
-	background-color: rgb(238, 238, 238);
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: minmax(250px, auto)1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(238, 238, 238);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
+}
+
+.main-container {
     height: 100vh;
     overflow-y: scroll;
 }
-.coolpage{
+
+.coolpage {
     margin-left: 0.5rem;
 }
-.nav-container{
+
+.nav-container {
     height: 100vh;
     overflow: scroll;
 }
-nav{
+
+nav {
     background: url(images/sidebar-1.jpg);
     background-repeat: no-repeat;
     background-blend-mode: darken;
@@ -29,78 +36,94 @@ nav{
     background-color: rgba(10, 9, 9, 0.8);
     height: 100vh;
 }
+
 .profile {
-	display: flex;
-	align-items: center;
-	padding: 1.3rem 0;
-	border-bottom: 0.06rem solid rgb(94, 86, 86);
-	color: white;
-	margin-bottom: 0.9rem;
-	font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    padding: 1.3rem 0;
+    border-bottom: 0.06rem solid rgb(94, 86, 86);
+    color: white;
+    margin-bottom: 0.9rem;
+    font-size: 1.2rem;
 }
+
 .profile-img {
-	border-radius: 50%;
-	width: 2rem;
-	height: 2rem;
-	margin: 0rem 0.4rem 0rem 0.8rem;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin: 0rem 0.4rem 0rem 0.8rem;
 }
+
 .logo {
-	border-bottom: 0.06rem solid rgb(94, 86, 86);
-	padding: 1rem;
-	text-align: left;
-	color: white;
-	text-transform: uppercase;
-	font-size: 1.3rem;
+    border-bottom: 0.06rem solid rgb(94, 86, 86);
+    padding: 1rem;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
 }
+
 .nav-icon {
-	margin-right: 0.75rem;
+    margin-right: 0.75rem;
 }
-nav ul li{
+
+nav ul li {
     margin-bottom: 0.6rem;
 }
-nav .show-more{
+
+nav .show-more {
     margin-left: auto;
 }
-.active{
+
+.active {
     background-color: red;
 }
-.main-container{
+
+.main-container {
     margin: 1rem;
 }
-li{
+
+li {
     list-style-type: none;
 }
+
 nav li {
-	display: flex;
-	align-items: center;
-	padding: 1rem;
-	text-decoration: none;
-	color: white;
-	border-radius: 0.3rem;
-	font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 0.9em;
 }
-ul{
+
+ul {
     padding: 1rem;
 }
-nav li:hover{
+
+nav li:hover {
     background-color: grey;
     cursor: pointer;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.6rem;
     margin-right: 1.5rem;
 }
-.dashboard{
+
+.dashboard {
     display: flex;
     align-items: center;
 }
-.left-dashboard{
+
+.left-dashboard {
     margin-left: 1rem;
 }
-.more-circle{
+
+.more-circle {
     background-color: white;
     width: 3rem;
     height: 3rem;
@@ -110,12 +133,14 @@ header{
     justify-content: center;
     cursor: pointer;
 }
-.search-bar{
+
+.search-bar {
     padding: 0.5rem;
     display: flex;
     align-items: center;
 }
-.search-bar-input{
+
+.search-bar-input {
     border: none;
     background-color: transparent;
     outline: none;
@@ -123,28 +148,33 @@ header{
     color: inherit;
     border-bottom: 0.1rem solid;
 }
-.search-icon{
+
+.search-icon {
     border-radius: 50%;
     background-color: white;
     color: black;
     padding: 0.5rem;
     cursor: pointer;
 }
-.header-icon{
+
+.header-icon {
     cursor: pointer;
     margin-right: 0.7rem;
 }
-.left{
+
+.left {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 1rem;
 }
-.notification-dropdown{
+
+.notification-dropdown {
     position: relative;
     display: inline-block;
 }
-.badge{
+
+.badge {
     position: absolute;
     top: -5px;
     left: 10px;
@@ -160,7 +190,8 @@ header{
     justify-content: center;
     align-items: center;
 }
-.first-section{
+
+.first-section {
     display: flex;
     gap: 2rem;
     background-color: white;
@@ -170,7 +201,8 @@ header{
     margin: 3rem;
     position: relative;
 }
-.table-head h2{
+
+.table-head h2 {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -180,7 +212,8 @@ header{
     left: 1rem;
     font-weight: 100;
 }
-.map-icon{
+
+.map-icon {
     background-color: green;
     color: white;
     width: 5rem;
@@ -190,38 +223,46 @@ header{
     justify-content: center;
     align-items: center;
 }
-.table{
+
+.table {
     display: flex;
     margin-top: 2rem;
 }
-td img{
+
+td img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-table{
+
+table {
     border-collapse: collapse;
     border-spacing: 2px;
     border-color: grey;
 }
+
 table tr td {
     border-bottom: 0.06rem solid grey;
 }
+
 td {
     padding: 1rem;
     margin-bottom: 0.5rem;
     font-size: 0.8em;
 }
-table tr:last-child td{
+
+table tr:last-child td {
     border-bottom: none;
 }
-iframe{
+
+iframe {
     border-radius: 0.4rem;
     display: flex;
     flex: 1;
     width: 100%;
 }
-.second-section{
+
+.second-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -229,7 +270,8 @@ iframe{
     margin: 1rem;
     gap: 1rem;
 }
-.status1{
+
+.status1 {
     position: relative;
     background-color: white;
     border-radius: 0.5rem;
@@ -237,7 +279,8 @@ iframe{
     grid: 1 / 2;
     margin-top: 0.5rem;
 }
-.status2{
+
+.status2 {
     position: relative;
     background-color: white;
     border-radius: 0.5rem;
@@ -245,7 +288,8 @@ iframe{
     grid: 2 / 3;
     margin-top: 0.5rem;
 }
-.status3{
+
+.status3 {
     position: relative;
     background-color: white;
     border-radius: 0.5rem;
@@ -253,7 +297,8 @@ iframe{
     grid: 2 / 2;
     margin-top: 0.5rem;
 }
-.status4{
+
+.status4 {
     position: relative;
     background-color: white;
     border-radius: 0.5rem;
@@ -261,7 +306,8 @@ iframe{
     grid: 2 / 3;
     margin-top: 0.5rem;
 }
-.chair{
+
+.chair {
     background-color: orange;
     color: white;
     width: 5rem;
@@ -274,13 +320,15 @@ iframe{
     top: -1rem;
     left: 1rem;
 }
-.top-right{
+
+.top-right {
     color: grey;
-   display: flex;
-   align-items: top;
-   justify-content: end;
+    display: flex;
+    align-items: top;
+    justify-content: end;
 }
-.center-right{
+
+.center-right {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -288,7 +336,8 @@ iframe{
     font-weight: 100;
     margin-right: 0.5rem;
 }
-.bottom{
+
+.bottom {
     border: 1px grey solid;
     display: flex;
     border: none;
@@ -296,7 +345,8 @@ iframe{
     align-items: center;
     color: gray;
 }
-.barchart{
+
+.barchart {
     background-color: hotpink;
     color: white;
     width: 5rem;
@@ -309,7 +359,8 @@ iframe{
     top: -1rem;
     left: 1rem;
 }
-.store{
+
+.store {
     background-color: green;
     color: white;
     width: 5rem;
@@ -322,7 +373,8 @@ iframe{
     top: -1rem;
     left: 1rem;
 }
-.globe{
+
+.globe {
     background-color: blue;
     color: white;
     width: 5rem;
@@ -335,6 +387,84 @@ iframe{
     top: -1rem;
     left: 1rem;
 }
-h1{
+
+h1 {
     font-weight: 100;
+}
+
+.apartment-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.apartment-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0rem 0rem 0.2rem 0rem gray;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.apartment-name {
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.apartment-description {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top: auto;
+}
+
+.apartment-card-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    color: black;
+    border-top: 0.05rem solid black;
+    padding: 1rem;
+}
+.cardimg{
+    width: 90%;
+    margin-left: 1.2rem;
+}
+.edit-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view{
+    color: grey;
+}
+.edit{
+    color: green;
+}
+.delete{
+    color: red;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	margin: 1rem;
+	font-size: 1.2rem;
+	border-top: 0.1rem solid grey;
+}
+.footerp{
+    display: inline;
+    padding: 1rem;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
 }
