@@ -397,16 +397,22 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     justify-content: center;
+    margin: 3rem;
+}
+
+.apartment-title{
+    margin-left: 1.5rem;
 }
 
 .apartment-card {
+    position: relative;
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: white;
     box-shadow: 0rem 0rem 0.2rem 0rem gray;
     display: flex;
     flex-direction: column;
-    margin: 0.5rem;
+    gap: 0.5rem;
 }
 
 .apartment-name {
@@ -414,6 +420,8 @@ h1 {
     text-align: center;
     margin-bottom: 0;
     font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
     padding: 1rem;
 }
 
@@ -437,11 +445,17 @@ h1 {
 .cardimg{
     width: 90%;
     margin-left: 1.2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    bottom: 2rem;
 }
 .edit-icons{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -4rem;
+    z-index: -1;
 }
 .view{
     color: grey;
@@ -451,6 +465,11 @@ h1 {
 }
 .delete{
     color: red;
+}
+.location{
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 footer {
 	display: flex;
