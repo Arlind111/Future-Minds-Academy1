@@ -191,6 +191,7 @@ header {
     position: relative;
     display: inline-block;
 }
+
 .dropul{
     margin: 0;
     padding: 0.5rem;
@@ -202,14 +203,15 @@ header {
     align-items: center;
     width: 15rem;
     margin: 0;
-    right: 3.5rem;
-    top: 1rem;
+    right: 4rem;
+    top: 0rem;
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 0rem 0rem 0.1rem 0rem;
     display: none;
 }
 .dropdown-content:hover{
+    display: block;
     opacity: 1;
     z-index: 1;
 }
@@ -445,7 +447,27 @@ h1 {
     margin-left: 1.5rem;
 }
 
-.apartment-card {
+.apartment-card1 {
+    position: relative;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0rem 0rem 0.2rem 0rem gray;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.apartment-card2 {
+    position: relative;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0rem 0rem 0.2rem 0rem gray;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.apartment-card3 {
     position: relative;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -551,4 +573,113 @@ footer {
     to{
         box-shadow: 0rem 0rem 0.6rem 0rem;;
     }
+}
+@media screen and (max-width: 1060px){
+    body{
+        grid-template-columns: 1fr;
+    }
+    .nav-container{
+        display: none;
+    }
+    .left-dashboard{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .header-icons{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        justify-content: end;
+        margin-left: auto;
+    }
+    .first-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .table{
+        display: grid;
+    }
+    .iframe{
+        display: grid;
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .apartment-card1 {
+        display: grid;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .apartment-card2 {
+        display: grid;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .apartment-card3{
+        display: grid;
+        grid-columns: 1;
+        grid-row: 3;
+    }
+    
+}
+@media screen and (max-width: 450px){
+    body{
+        grid-template-columns: 1fr;
+    }
+    .nav-container{
+        display: none;
+    }
+    .left-dashboard{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .header-icons{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        justify-content: end;
+        margin-left: auto;
+    }
+    .first-section{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .table{
+        display: grid;
+    }
+    .iframe{
+        width: 100%;
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .apartment-card1 {
+        display: grid;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .apartment-card2 {
+        display: grid;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .apartment-card3{
+        display: grid;
+        grid-columns: 1;
+        grid-row: 3;
+    }
+    
 }
