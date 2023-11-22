@@ -135,6 +135,9 @@ header {
     justify-content: center;
     cursor: pointer;
 }
+.more-circle:hover{
+    animation: shadows 1s ease 0s 1 normal both;
+}
 
 .search-bar {
     padding: 0.5rem;
@@ -150,20 +153,33 @@ header {
     color: inherit;
     border-bottom: 0.1rem solid;
 }
+.search-bar-input:focus{
+    border-bottom: 0.15rem solid purple;
+}
 
 .search-icon {
     border-radius: 50%;
     background-color: white;
     color: black;
-    padding: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
-
+.search-icon:hover{
+    animation: shadows 1s ease 0s 1 normal both;
+}
 .header-icon {
     cursor: pointer;
     margin-right: 0.7rem;
 }
 
+.menu {
+	display: none;
+	cursor: pointer;
+}
 .left {
     display: flex;
     align-items: center;
@@ -278,7 +294,6 @@ iframe {
     background-color: white;
     border-radius: 0.5rem;
     padding: 1rem;
-    grid: 1 / 2;
     margin-top: 0.5rem;
 }
 
@@ -287,7 +302,6 @@ iframe {
     background-color: white;
     border-radius: 0.5rem;
     padding: 1rem;
-    grid: 2 / 3;
     margin-top: 0.5rem;
 }
 
@@ -296,7 +310,6 @@ iframe {
     background-color: white;
     border-radius: 0.5rem;
     padding: 1rem;
-    grid: 2 / 2;
     margin-top: 0.5rem;
 }
 
@@ -305,7 +318,6 @@ iframe {
     background-color: white;
     border-radius: 0.5rem;
     padding: 1rem;
-    grid: 2 / 3;
     margin-top: 0.5rem;
 }
 
@@ -399,6 +411,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     justify-content: center;
+    align-items: center;
     margin: 3rem;
 }
 
@@ -419,12 +432,11 @@ h1 {
 
 .apartment-name {
     color: black;
-    text-align: center;
-    margin-bottom: 0;
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
     padding: 1rem;
+    margin-top: -1rem;
 }
 
 .apartment-description {
@@ -433,7 +445,8 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
-    margin-top: auto;
+    margin-top: -2rem;
+    text-align: center;
 }
 
 .apartment-card-info {
@@ -446,18 +459,16 @@ h1 {
 }
 .cardimg{
     width: 90%;
-    margin-left: 1.2rem;
     border-radius: 0.5rem;
     position: relative;
     bottom: 2rem;
+    z-index: 1;
 }
 .edit-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -4rem;
-    z-index: -1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -4.1rem;
 }
 .view{
     color: grey;
@@ -472,6 +483,14 @@ h1 {
     display: flex;
     justify-self: center;
     align-items: center;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container:hover{
+    animation: uphigh 1s ease-in 0s 1 normal both;
 }
 footer {
 	display: flex;
@@ -488,4 +507,22 @@ footer {
     color: black;
     font-weight: bold;
     cursor: pointer;
+}
+@keyframes uphigh {
+    from{
+        position: relative;
+        top: 0rem;
+    }
+    to{
+        position: relative;
+        top: -2rem;
+    }
+}
+@keyframes shadows{
+    from{
+        box-shadow: 0rem 0rem 0rem 0rem;
+    }
+    to{
+        box-shadow: 0rem 0rem 0.6rem 0rem;;
+    }
 }
