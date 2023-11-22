@@ -191,6 +191,32 @@ header {
     position: relative;
     display: inline-block;
 }
+.dropul{
+    margin: 0;
+    padding: 0.5rem;
+}
+.dropdown-content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    margin: 0;
+    right: 3.5rem;
+    top: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.1rem 0rem;
+    display: none;
+}
+.dropdown-content:hover{
+    opacity: 1;
+    z-index: 1;
+}
+.dropli:hover{
+    background-color: red;
+    color: white;
+}
 
 .badge {
     position: absolute;
