@@ -331,7 +331,7 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     background-color: white;
     border-radius: 0.5rem;
     padding: 2rem;
@@ -958,6 +958,8 @@ footer {
         grid-template-columns: 1fr;
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
+        width: 90%;
+        margin: 1rem;
     }
     .first-section > *:nth-child(1){
         -ms-grid-row: 1;
@@ -977,6 +979,9 @@ footer {
         grid-template-columns: 1fr;
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
+        width: 100%;
+        margin: auto;
+        padding: 1rem;
     }
     .second-section > *:nth-child(1){
         -ms-grid-row: 1;
