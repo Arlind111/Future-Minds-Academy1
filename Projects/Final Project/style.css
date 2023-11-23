@@ -70,14 +70,14 @@ body > *:nth-child(2) {
 .nav-container {
     height: 100vh;
     overflow: scroll;
-}
-
-nav {
     background: url(images/sidebar-1.jpg);
     background-repeat: no-repeat;
     background-blend-mode: darken;
     padding: 0.7rem;
     background-color: rgba(10, 9, 9, 0.8);
+}
+
+nav {
     height: 100vh;
 }
 
@@ -870,6 +870,10 @@ footer {
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
     }
+    iframe {
+        height: 300px;
+        width: 100%;
+    }
     .first-section > *:nth-child(1){
         -ms-grid-row: 1;
         -ms-grid-column: 1;
@@ -966,6 +970,10 @@ footer {
         grid-template-rows: 1fr;
         width: 90%;
         margin: 1rem;
+    }
+    iframe {
+        height: 300px;
+        width: 100%;
     }
     .first-section > *:nth-child(1){
         -ms-grid-row: 1;
