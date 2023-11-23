@@ -299,12 +299,9 @@ header {
     border-radius: 0.5rem;
     -webkit-box-shadow: 0rem 0rem 0.1rem 0rem;
             box-shadow: 0rem 0rem 0.1rem 0rem;
-    display: none;
 }
-.dropdown-content:hover{
-    display: block;
-    opacity: 1;
-    z-index: 1;
+.dropdown-content{
+    display: none;
 }
 .dropli:hover{
     background-color: red;
@@ -824,7 +821,8 @@ footer {
     }
     to{
         -webkit-box-shadow: 0rem 0rem 0.6rem 0rem;
-                box-shadow: 0rem 0rem 0.6rem 0rem;;
+                box-shadow: 0rem 0rem 0.6rem 0rem;
+                color: grey;
     }
 }
 @keyframes shadows{
@@ -834,7 +832,8 @@ footer {
     }
     to{
         -webkit-box-shadow: 0rem 0rem 0.6rem 0rem;
-                box-shadow: 0rem 0rem 0.6rem 0rem;;
+                box-shadow: 0rem 0rem 0.6rem 0rem;
+                color: grey;
     }
 }
 @media screen and (max-width: 1060px){
